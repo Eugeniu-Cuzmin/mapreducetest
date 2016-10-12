@@ -3,6 +3,7 @@ package com.mapreader;
 import java.io.IOException;
 import java.util.Iterator;
 
+import java.lang.*;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapred.JobConf;

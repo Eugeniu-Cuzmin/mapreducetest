@@ -32,6 +32,7 @@ public class TestWordCount {
 
     @Test
     public void testMapper() {
+        System.setProperty("hadoop.home.dir", "C:\\WorkSpace\\");
         mapDriver.withInput(new LongWritable(1), new Text("cat cat dog"));
         mapDriver.withOutput(new Text("cat"), new IntWritable(1));
         mapDriver.withOutput(new Text("cat"), new IntWritable(1));
@@ -41,6 +42,7 @@ public class TestWordCount {
 
     @Test
     public void testReducer() {
+        System.setProperty("hadoop.home.dir", "C:\\WorkSpace\\");
         List<IntWritable> values = new ArrayList<IntWritable>();
         values.add(new IntWritable(1));
         values.add(new IntWritable(1));
@@ -51,6 +53,7 @@ public class TestWordCount {
 
     @Test
     public void testMapReduce() {
+        System.setProperty("hadoop.home.dir", "C:\\WorkSpace\\");
         mapReduceDriver.withInput(new LongWritable(1), new Text("cat cat dog"));
         mapReduceDriver.addOutput(new Text("cat"), new IntWritable(2));
         mapReduceDriver.addOutput(new Text("dog"), new IntWritable(1));
