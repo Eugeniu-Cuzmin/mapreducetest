@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a8e0215-43d5-4309-b5f0-6fcb623376be" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mapreader/MainClass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mapreader/SumReducer.java" afterPath="$PROJECT_DIR$/src/main/java/com/mapreader/SumReducer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/mapreader/TestWordCount.java" afterPath="$PROJECT_DIR$/src/test/java/com/mapreader/TestWordCount.java" />
-    </list>
+    <list default="true" id="3a8e0215-43d5-4309-b5f0-6fcb623376be" name="Default" comment="" />
     <ignored path="mapreducetest.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -754,7 +748,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1476261305777</updated>
-      <workItem from="1476261310581" duration="7926000" />
+      <workItem from="1476261310581" duration="8037000" />
     </task>
     <servers />
   </component>
@@ -791,7 +785,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7926000" />
+    <option name="totallyTimeSpent" value="8037000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
