@@ -21,9 +21,7 @@ public class SumReducer implements Reducer<Text, IntWritable, Text, IntWritable>
                        Reporter reporter) throws IOException {
         int wordCount = 0;
         IntWritable words = new IntWritable();
-        /*for (IntWritable value : values) {
-            wordCount += value.get();
-        }*/
+
         while(values.hasNext()){
             wordCount += values.next().get();
         }
